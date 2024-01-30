@@ -135,3 +135,15 @@ header {
     -o-background-size: cover;
     background-position: center;
 }
+
+.hero_info {
+    position: absolute;
+    background-color: transparent;
+    left: 45%;
+    margin-left: -100px;
+    top: 40%;
+}
+
+.hero_info h1, .hero_info h5 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
