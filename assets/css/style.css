@@ -3,3 +3,44 @@
     padding: 0;
     margin: 0;
 }
+
+main {
+    margin-top: 100px;
+}
+
+.info-text {
+    color: #fff;
+    gap: 20px;
+}
+
+.logo img {
+    width: 200PX;
+    height: 230px;
+    border-radius:60%;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.cone i {
+    width: 100%;
+    color: #fff;
+}
+
+.cone {
+    width: 100px;
+    height: 100px;
+}
+
+.social {
+    color: #fff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.social i {
+    text-decoration: none;
+    color: #fff;
+}
