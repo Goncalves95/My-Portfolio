@@ -637,6 +637,94 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*----------------------------------------------- Sction Gretings */
+
+.greetings {
+    padding: 4rem 0;
+    background: #000
+}
+
+@media (min-width:40.62em) {
+    .greetings {
+        padding: 8rem 0
+    }
+}
+
+@media (min-width:56.25em) {
+    .greetings {
+        padding: 8rem 0
+    }
+}
+
+@media (min-width:56.25em) {
+    .greetings--main-container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+}
+
+.greetings__msg {
+    padding: 0 2rem 2rem 2rem;
+    max-width: 70rem
+}
+
+@media (min-width:56.25em) {
+    .greetings__msg {
+        width: 60%
+    }
+}
+
+.greetings--heading-secondary {
+    margin-bottom: 2rem
+}
+
+.greetings--text-primary {
+    font-size: 1.5rem
+}
+
+.greetings__visual {
+    padding: 2rem 2rem 0 2rem
+}
+
+@media (min-width:56.25em) {
+    .greetings__visual {
+        width: 40%
+    }
+}
+
+.greetings__visual-img-cont {
+    width: 100%;
+    height: 40rem;
+    overflow: hidden
+}
+
+@media (min-width:56.25em) {
+    .greetings__visual-img-cont {
+        height: 50rem;
+        border-radius: 5px
+    }
+}
+
+.greetings__visual-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center
+}
+
+.greetings--btn {
+    display: none
+}
+
+@media (min-width:56.25em) {
+    .greetings--btn {
+        text-align: center;
+        margin-top: 4rem;
+        display: inline-block
+    }
+}
+
 /*-------------------------------------------- Media Query */
 
 @media (min-width:40.62em) {
