@@ -12,12 +12,6 @@ html {
     overflow-x: hidden
 }
 
-body {
-    box-sizing: border-box;
-    background: linear-gradient(93deg, #333 35%, #222 63%);
-    overflow-x: hidden
-}
-
 a {
     text-decoration: none
 }
@@ -290,15 +284,6 @@ body {
     background-repeat: no-repeat !important;
 }
 
-.home-header img {
-    display: flex;
-    width: 100%;
-    background-size: cover !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
 .home-header .content {
     position: absolute;
     top: 50%;
@@ -320,10 +305,6 @@ body {
 .home-header--btn {
     cursor: pointer
 }
-
-
-
-
 
 .heading-primary {
     font-size: 5rem;
@@ -605,36 +586,6 @@ body {
     -webkit-animation: ani-mouse 2.5s linear infinite;
     -moz-animation: ani-mouse 2.5s linear infinite;
     animation: ani-mouse 2.5s linear infinite
-}
-
-/*-------------------------------------------- Hero section */
-
-.hero {
-    display: block;
-    position: relative;
-    height: 100dvh;
-    color: #fff;
-    background-image: url(../images/IMG_1318.JPG);
-    background-color: black;
-    text-align: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-}
-
-.hero_info {
-    position: absolute;
-    background-color: transparent;
-    left: 45%;
-    margin-left: -100px;
-    top: 40%;
-}
-
-.hero_info h1, .hero_info h5 {
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*----------------------------------------------- Sction Gretings */
