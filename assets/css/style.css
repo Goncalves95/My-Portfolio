@@ -276,7 +276,7 @@ body {
 
 /*------------------------------------- Header */
 .home-header {
-    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/assets/images/office_5497.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("/assets/images/office_5497.jpg");
     min-height: 100vh;
     background-size: cover !important;
     background-position: center;
