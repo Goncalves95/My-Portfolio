@@ -381,7 +381,7 @@ body {
     margin: auto
 }
 
-.btn {
+.bton {
     font-family: Staatliches, cursive;
     background-color: #ffd71b;
     color: #000;
@@ -725,6 +725,202 @@ body {
     }
 }
 
+/*----------------------------------------------- Sction Skills */
+.features {
+    background-color: orange;
+    z-index: 2
+}
+
+@media (min-width:56.25em) {
+    .features {
+        display: flex
+    }
+}
+
+.features__feature {
+    width: 100%;
+    height: 45rem;
+    overflow: hidden;
+    position: relative;
+    z-index: 2
+}
+
+@media (min-width:56.25em) {
+    .features__feature {
+        width: 33.33333%;
+        height: 60rem
+    }
+}
+
+.features__feature::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 1;
+    -webkit-box-shadow: inset 0 0 50px 0 #000;
+    -moz-box-shadow: inset 0 0 50px 0 #000;
+    box-shadow: inset 0 0 50px 0 #000
+}
+
+.features__feature-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0
+}
+
+.features__content {
+    z-index: 2;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    text-align: center
+}
+
+.features--heading-secondary {
+    margin-bottom: 2rem;
+    font-size: 4rem
+}
+
+.features--text-secondary {
+    width: 90%;
+    margin: 0 auto 3rem auto;
+    color: #c8c8c8;
+    max-width: 25rem
+}
+
+.menu-features {
+    padding: 4rem 0;
+    text-align: center;
+    background: #000
+}
+
+@media (min-width:40.62em) {
+    .menu-features {
+        padding: 8rem 0
+    }
+}
+
+.menu-features__row {
+    margin-top: 4rem;
+    text-align: left;
+    margin-bottom: 4rem
+}
+
+@media (min-width:56.25em) {
+    .menu-features__row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6rem
+    }
+}
+
+.menu-features__feature {
+    padding: 5rem 2rem;
+    background: #222;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    margin-bottom: 2.5rem;
+    transition: .3s ease-out
+}
+
+@media (min-width:56.25em) {
+    .menu-features__feature {
+        width: 31%;
+        margin-bottom: 0
+    }
+}
+
+.menu-features__feature:last-child {
+    margin-bottom: 0
+}
+
+@media (min-width:56.25em) {
+    .menu-features__feature:last-child {
+        margin-bottom: 0
+    }
+}
+
+.menu-features__feature:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .4);
+    transform: translateY(-1rem)
+}
+
+.menu-features__icon-cont {
+    width: 6rem;
+    margin-bottom: 1.5rem
+}
+
+.menu-features__icon-cont img {
+    width: 100%
+}
+
+.menu-features__feature-name {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #eee
+}
+
+.menu-features__feature-desc {
+    font-size: 1.4rem;
+    color: #afafaf;
+    line-height: 2.5rem;
+    font-weight: 400
+}
+
+#skills {
+    color: #fff;
+}
+
+#skills svg {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+@media (min-width: 1400px){
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px){
+    .container-lg, .container-md, .container-sm, .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px){
+    .container-md, .container-sm, .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px){
+    .container-sm, .container {
+    max-width: 540px;
+    }
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /*-------------------------------------------- Media Query */
 
 @media (min-width:40.62em) {
@@ -781,3 +977,4 @@ body {
         width: 5rem
     }
 }
+
