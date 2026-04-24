@@ -1,7 +1,7 @@
 
 # HELLO!
 
-## Welcome to my Protefolio,
+## Welcome to my Portefolio,
 
 ### I'm Fernando Gonçalves,
 I'm a passionate Full Stack Software Engineer specializing in Data Analytics and Machine Learning, eager to contribute to innovative software development projects. While my professional journey has just begun, I am determined to grow and rapidly develop my skills. Currently, my key competencies include:
